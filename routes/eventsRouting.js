@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { breakingEvents } from "../controllers/eventsController";
+import { breakingEvents } from "../controllers/eventsController.js";
 
 const eventsRouter = Router();
 
